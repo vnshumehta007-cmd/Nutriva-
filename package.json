@@ -2,7 +2,6 @@
   "name": "nutriva-premium-nutrition-platform",
   "version": "1.0.0",
   "description": "NUTRIVA - Precision Nutrition for High-Performance Living (Full-Stack React + Vite & Node.js)",
-  "main": "worker.js",
   "scripts": {
     "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
     "dev:server": "npm --prefix backend run dev",
