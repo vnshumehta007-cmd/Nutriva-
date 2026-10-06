@@ -2,7 +2,7 @@
   "name": "nutriva-premium-nutrition-platform",
   "version": "1.0.0",
   "description": "NUTRIVA - Precision Nutrition for High-Performance Living (Full-Stack React + Vite & Node.js)",
-  "main": "backend/server.js",
+  "main": "worker.js",
   "scripts": {
     "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
     "dev:server": "npm --prefix backend run dev",
@@ -24,6 +24,7 @@
   "author": "NUTRIVA Team",
   "license": "ISC",
   "devDependencies": {
-    "concurrently": "^8.2.2"
+    "concurrently": "^8.2.2",
+    "wrangler": "^3.109.2"
   }
 }
