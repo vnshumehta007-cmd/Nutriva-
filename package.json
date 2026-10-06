@@ -7,7 +7,7 @@
     "dev:server": "npm --prefix backend run dev",
     "dev:client": "npm --prefix frontend run dev",
     "install:all": "npm install && npm --prefix backend install && npm --prefix frontend install",
-    "build": "npm --prefix frontend install && npm --prefix frontend run build && node -e \"fs.cpSync('frontend/dist', 'dist', {recursive: true})\"",
+    "build": "npm --prefix frontend install && npm --prefix frontend run build && node -e \"fs.cpSync('frontend/dist', 'dist', {recursive: true}); if(fs.existsSync('dist/_redirects')) fs.unlinkSync('dist/_redirects'); if(fs.existsSync('frontend/dist/_redirects')) fs.unlinkSync('frontend/dist/_redirects');\"",
     "start": "node backend/server.js"
   },
   "keywords": [
@@ -24,6 +24,6 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^8.2.2",
-    "wrangler": "^4.0.0"
+    "wrangler": "^4.147.0"
   }
 }
