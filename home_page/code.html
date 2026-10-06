@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>NUTRIVA - Nutrition that fits your life</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Montserrat:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "secondary-container": "#c9e7cc",
+                        "surface-tint": "#4d6453",
+                        "on-tertiary-container": "#b0898c",
+                        "surface-container-high": "#e9e8e5",
+                        "outline": "#737973",
+                        "inverse-primary": "#b4cdb8",
+                        "primary-fixed": "#d0e9d4",
+                        "tertiary-container": "#3f2427",
+                        "on-surface": "#1b1c1a",
+                        "primary-fixed-dim": "#b4cdb8",
+                        "secondary-fixed": "#cceacf",
+                        "tertiary": "#271013",
+                        "on-secondary-container": "#4e6953",
+                        "on-tertiary": "#ffffff",
+                        "surface": "#fbf9f6",
+                        "primary": "#061b0e",
+                        "on-background": "#1b1c1a",
+                        "on-secondary-fixed": "#062010",
+                        "on-primary-container": "#819986",
+                        "surface-container-low": "#f5f3f0",
+                        "secondary-fixed-dim": "#b0ceb4",
+                        "on-secondary-fixed-variant": "#334d38",
+                        "primary-container": "#1b3022",
+                        "inverse-on-surface": "#f2f1ee",
+                        "on-primary": "#ffffff",
+                        "background": "#fbf9f6",
+                        "on-tertiary-fixed": "#2d1417",
+                        "on-primary-fixed-variant": "#364c3c",
+                        "error": "#ba1a1a",
+                        "surface-dim": "#dbdad7",
+                        "on-primary-fixed": "#0b2013",
+                        "on-error-container": "#93000a",
+                        "error-container": "#ffdad6",
+                        "secondary": "#4a654f",
+                        "tertiary-fixed-dim": "#e7bcbf",
+                        "outline-variant": "#c3c8c1",
+                        "on-surface-variant": "#434843",
+                        "on-secondary": "#ffffff",
+                        "on-tertiary-fixed-variant": "#5d3f42",
+                        "inverse-surface": "#30312f",
+                        "on-error": "#ffffff",
+                        "surface-variant": "#e3e2e0",
+                        "surface-bright": "#fbf9f6",
+                        "surface-container": "#efeeeb",
+                        "surface-container-highest": "#e3e2e0",
+                        "surface-container-lowest": "#ffffff",
+                        "tertiary-fixed": "#ffd9dc"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "margin-desktop": "64px",
+                        "base": "8px",
+                        "sm": "12px",
+                        "gutter": "24px",
+                        "xl": "80px",
+                        "xs": "4px",
+                        "margin-mobile": "20px",
+                        "max-width": "1280px",
+                        "lg": "48px",
+                        "md": "24px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["Inter"],
+                        "label-sm": ["Inter"],
+                        "display-lg": ["Montserrat"],
+                        "headline-sm": ["Montserrat"],
+                        "headline-md": ["Montserrat"],
+                        "label-md": ["Inter"],
+                        "body-lg": ["Inter"],
+                        "display-lg-mobile": ["Montserrat"]
+                    },
+                    "fontSize": {
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "label-sm": ["12px", { "lineHeight": "16px", "fontWeight": "500" }],
+                        "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "headline-sm": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+                        "headline-md": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+                        "label-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "display-lg-mobile": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "700" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body { background-color: theme('colors.background'); color: theme('colors.on-background'); }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        .material-symbols-outlined.fill { font-variation-settings: 'FILL' 1; }
+    </style>
+</head>
+<body class="antialiased min-h-screen flex flex-col font-body-md text-body-md">
+<!-- TopNavBar -->
+<header class="bg-surface shadow-sm backdrop-blur-md sticky top-0 z-50 transition-all duration-300">
+<div class="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop max-w-max-width mx-auto h-20">
+<div class="flex items-center gap-4">
+<span class="text-headline-md font-headline-md font-bold text-primary tracking-tight">NUTRIVA</span>
+</div>
+<nav class="hidden md:flex gap-gutter items-center">
+<a class="text-primary font-bold border-b-2 border-primary pb-1 font-label-md text-label-md" href="#">Home</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="#">About</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="#">Services</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="#">Nutritionists</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="#">Testimonials</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="#">Consultations</a>
+</nav>
+<div class="hidden md:flex items-center gap-4">
+<button class="text-on-surface-variant hover:bg-surface-container-high transition-all duration-300 p-2 rounded-full flex items-center justify-center hover:opacity-80 active:scale-95">
+<span class="material-symbols-outlined">search</span>
+</button>
+<button class="text-on-surface-variant hover:bg-surface-container-high transition-all duration-300 p-2 rounded-full flex items-center justify-center hover:opacity-80 active:scale-95">
+<span class="material-symbols-outlined">notifications</span>
+</button>
+<a class="text-primary font-label-md text-label-md hover:underline px-4" href="#">Login</a>
+<a class="bg-primary text-on-primary px-6 py-2 rounded-lg font-label-md text-label-md hover:bg-primary/90 transition-colors" href="#">Get Started</a>
+</div>
+<!-- Mobile Menu Button -->
+<button class="md:hidden text-primary p-2">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</header>
+<main class="flex-grow">
+<!-- Hero Section -->
+<section class="px-margin-mobile md:px-margin-desktop py-xl max-w-max-width mx-auto flex flex-col md:flex-row items-center gap-xl min-h-[80vh]">
+<div class="w-full md:w-1/2 flex flex-col gap-lg items-start">
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary">Nutrition that fits your life.</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant">Bespoke, evidence-based diet plans crafted by certified nutritionists to help you achieve lasting high-performance living. Experience wellness tailored specifically to you.</p>
+<div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+<button class="bg-secondary text-on-secondary px-8 py-3 rounded-lg font-label-md text-label-md hover:bg-secondary/90 transition-colors shadow-sm">Find Your Nutritionist</button>
+<button class="bg-surface text-secondary border border-secondary px-8 py-3 rounded-lg font-label-md text-label-md hover:bg-surface-container-low transition-colors shadow-sm">Explore Services</button>
+</div>
+</div>
+<div class="w-full md:w-1/2 flex justify-center items-center relative">
+<div class="relative w-full aspect-square max-w-[500px] rounded-xl overflow-hidden shadow-[0_4px_20px_rgba(27,28,26,0.04)] bg-surface-container">
+<img alt="NUTRIVA Brand Logo" class="object-cover w-full h-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBfgsTBCM2OuIXaSt0s5kGOie3duiep4rQ-gxg5NGyQgD2PYGx2N_rlVZ3Lc3sQa_xEePC0ndIWUGCPLWIJfyszezXFiGrh_yA8TTRjuYTisTTYrXAPDMOmeKlR7ImWwuhDMNvgkUhDeOtYkqtTF5jTiA9-HhH1VYbaIjZ-znpJIyKfPmq0snTLXpcIHAQL9coYoDwXqxlZjspYY0k58uL-pQ-jacFqL-8FhZ-5wjRFOZppUZuSfvDe"/>
+</div>
+</div>
+</section>
+<!-- Trust Indicators -->
+<section class="bg-surface-container-low py-lg px-margin-mobile md:px-margin-desktop">
+<div class="max-w-max-width mx-auto flex flex-wrap justify-center md:justify-between items-center gap-8 opacity-80">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary fill">verified</span>
+<span class="font-label-md text-label-md text-primary">Certified Experts</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary">security</span>
+<span class="font-label-md text-label-md text-primary">100% Secure</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary">science</span>
+<span class="font-label-md text-label-md text-primary">Evidence-Based</span>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="w-full mt-xl bg-surface-container-highest border-t border-outline-variant">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-margin-mobile md:px-margin-desktop py-xl max-w-max-width mx-auto">
+<div class="flex flex-col gap-4">
+<span class="font-headline-sm text-headline-sm font-bold text-primary">NUTRIVA</span>
+<p class="font-body-md text-body-md text-on-surface-variant">© 2024 NUTRIVA. Precision Nutrition for High-Performance Living.</p>
+</div>
+<div class="flex flex-col gap-2">
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-all duration-200 ease-in-out hover:underline underline-offset-4" href="#">Services</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-all duration-200 ease-in-out hover:underline underline-offset-4" href="#">About</a>
+</div>
+<div class="flex flex-col gap-2">
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-all duration-200 ease-in-out hover:underline underline-offset-4" href="#">Resources</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-all duration-200 ease-in-out hover:underline underline-offset-4" href="#">Support</a>
+</div>
+<div class="flex flex-col gap-2">
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-all duration-200 ease-in-out hover:underline underline-offset-4" href="#">Privacy</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-all duration-200 ease-in-out hover:underline underline-offset-4" href="#">Terms</a>
+</div>
+</div>
+</footer>
+</main>
+</body></html>

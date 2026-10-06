@@ -1,0 +1,128 @@
+[
+  {
+    "id": "srv-1",
+    "title": "Personalized Diet",
+    "category": "Nutrition Plans",
+    "goal": "Weight Loss",
+    "condition": "General Wellness",
+    "ageGroup": "Adults (18-60)",
+    "consultationType": "1-on-1 Video",
+    "description": "A foundational plan built exclusively around your metabolic profile, lifestyle constraints, and culinary preferences.",
+    "duration": "4 Weeks",
+    "price": 199,
+    "rating": 4.9,
+    "reviewsCount": 128,
+    "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=800&q=80",
+    "features": [
+      "Custom weekly meal protocol",
+      "Bi-weekly 30-min clinical check-ins",
+      "Macro & micronutrient breakdown",
+      "Direct chat support via Nutriva portal"
+    ]
+  },
+  {
+    "id": "srv-2",
+    "title": "Weight Management",
+    "category": "Body Composition",
+    "goal": "Weight Loss",
+    "condition": "Metabolic Optimization",
+    "ageGroup": "Adults (18-60)",
+    "consultationType": "1-on-1 Video",
+    "description": "Sustainable, science-backed strategies for fat loss or muscle gain without restrictive, unsustainable fad dieting.",
+    "duration": "12 Weeks",
+    "price": 349,
+    "rating": 4.95,
+    "reviewsCount": 210,
+    "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=800&q=80",
+    "features": [
+      "Biomarker & hormonal assessment",
+      "Metabolic adaptation tracking",
+      "Adaptive calorie & refeed schedule",
+      "Comprehensive habit coaching"
+    ]
+  },
+  {
+    "id": "srv-3",
+    "title": "Sports Nutrition & Performance",
+    "category": "Athletic Performance",
+    "goal": "Muscle Building",
+    "condition": "Athletic Conditioning",
+    "ageGroup": "All Ages",
+    "consultationType": "1-on-1 Video",
+    "description": "Optimize performance, endurance, and recovery with precise macro-nutrient timing and elite dietary coaching.",
+    "duration": "8 Weeks",
+    "price": 299,
+    "rating": 4.88,
+    "reviewsCount": 94,
+    "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=800&q=80",
+    "features": [
+      "Pre/intra/post workout fueling guides",
+      "Glycogen replenishment protocols",
+      "Hydration & electrolyte strategies",
+      "Supplement optimization plan"
+    ]
+  },
+  {
+    "id": "srv-4",
+    "title": "Gut Microbiome Restoration",
+    "category": "Digestive Health",
+    "goal": "Gut Health",
+    "condition": "Digestive Disorders",
+    "ageGroup": "Adults (18-60)",
+    "consultationType": "1-on-1 Video",
+    "description": "Heal your digestion and resolve bloating, IBS, or food intolerances through targeted anti-inflammatory protocols.",
+    "duration": "6 Weeks",
+    "price": 269,
+    "rating": 4.92,
+    "reviewsCount": 85,
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80",
+    "features": [
+      "Elimination and reintroduction guidance",
+      "Microbiome diversity optimization",
+      "Prebiotic & probiotic regimen",
+      "Symptom flare-up mitigation protocols"
+    ]
+  },
+  {
+    "id": "srv-5",
+    "title": "Longevity & Anti-Aging Nutrition",
+    "category": "Preventative Health",
+    "goal": "Longevity",
+    "condition": "Cellular Vitality",
+    "ageGroup": "Seniors (60+)",
+    "consultationType": "1-on-1 Video",
+    "description": "Promote autophagy, cellular repair, and cardiovascular health through longevity-focused precision diets.",
+    "duration": "12 Weeks",
+    "price": 420,
+    "rating": 4.96,
+    "reviewsCount": 62,
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80",
+    "features": [
+      "Fasting mimicking & time-restricted feeding",
+      "Mitochondrial support protocols",
+      "Lipid & blood glucose stabilization",
+      "Biomarker tracking for biological age"
+    ]
+  },
+  {
+    "id": "srv-6",
+    "title": "Hormone & Metabolic Balance",
+    "category": "Endocrine Health",
+    "goal": "Energy & Vitality",
+    "condition": "Hormonal Imbalance",
+    "ageGroup": "Adults (18-60)",
+    "consultationType": "Written + Video",
+    "description": "Holistic nutritional blueprints designed to stabilize blood sugar, thyroid function, and adrenal energy curves.",
+    "duration": "8 Weeks",
+    "price": 310,
+    "rating": 4.87,
+    "reviewsCount": 77,
+    "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=800&q=80",
+    "features": [
+      "Circadian rhythm meal timing",
+      "Thyroid & cortisol support guidelines",
+      "Glycemic index stabilization",
+      "Energy crash reduction strategies"
+    ]
+  }
+]

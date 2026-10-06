@@ -1,0 +1,29 @@
+[
+  {
+    "id": "test-1",
+    "name": "Sarah Jenkins",
+    "role": "Tech Founder & Marathoner",
+    "quote": "NUTRIVA transformed how I fuel my body. My energy levels have stabilized completely throughout 14-hour days, and I knocked 12 minutes off my marathon PR.",
+    "rating": 5,
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80",
+    "outcome": "-18 lbs fat, +25% sustained focus"
+  },
+  {
+    "id": "test-2",
+    "name": "David Ross",
+    "role": "Managing Partner, Venture Capital",
+    "quote": "Working with Dr. Elena Vance gave me exact biomarker clarity. It's the highest ROI health investment I've ever made.",
+    "rating": 5,
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80",
+    "outcome": "Cholesterol normalized, Fasting glucose -22 mg/dL"
+  },
+  {
+    "id": "test-3",
+    "name": "Chloe Dupont",
+    "role": "Architect & Yoga Instructor",
+    "quote": "After struggling with unexplained digestive discomfort for years, the Gut Restoration protocol completely reset my system within 4 weeks.",
+    "rating": 5,
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=200&q=80",
+    "outcome": "100% resolution of bloating & discomfort"
+  }
+]

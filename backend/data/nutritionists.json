@@ -1,0 +1,58 @@
+[
+  {
+    "id": "nut-1",
+    "name": "Dr. Elena Vance, PhD, RD",
+    "role": "Lead Clinical Nutritionist & Longevity Specialist",
+    "specialty": "Longevity & Metabolic Health",
+    "experience": "12+ Years",
+    "rating": 4.98,
+    "reviewsCount": 164,
+    "avatar": "https://images.unsplash.com/photo-1594824813576-ff63d3f9b2fa?auto=format&fit=crop&w=400&q=80",
+    "bio": "Former Stanford clinical research fellow specializing in biomarker-driven diet intervention and cellular rejuvenation.",
+    "education": "PhD in Nutritional Biochemistry, Harvard Medical School",
+    "availableSlots": ["Tomorrow, 10:00 AM", "Tomorrow, 2:00 PM", "Friday, 11:30 AM"],
+    "consultationFee": 120
+  },
+  {
+    "id": "nut-2",
+    "name": "Marcus Sterling, MS, CSCS",
+    "role": "Director of Sports Nutrition & Performance",
+    "specialty": "Athletic Conditioning & Muscle Gain",
+    "experience": "9 Years",
+    "rating": 4.95,
+    "reviewsCount": 142,
+    "avatar": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=400&q=80",
+    "bio": "Advisor to Olympic athletes and high-tier executives, optimizing energy balance, glycogen reloading, and rapid muscular recovery.",
+    "education": "MS in Exercise Science & Nutrition, Columbia University",
+    "availableSlots": ["Thursday, 1:00 PM", "Friday, 3:30 PM", "Saturday, 9:00 AM"],
+    "consultationFee": 110
+  },
+  {
+    "id": "nut-3",
+    "name": "Dr. Sophia Lin, MD, RD",
+    "role": "Integrative Gastroenterology & Gut Specialist",
+    "specialty": "Gut Microbiome & Autoimmune Diets",
+    "experience": "14 Years",
+    "rating": 4.99,
+    "reviewsCount": 198,
+    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=400&q=80",
+    "bio": "Pioneer in microbiome restoration protocols for IBS, systemic inflammation, and food intolerance resolution.",
+    "education": "MD from Johns Hopkins University, RD Certification",
+    "availableSlots": ["Today, 4:00 PM", "Wednesday, 11:00 AM", "Thursday, 10:00 AM"],
+    "consultationFee": 135
+  },
+  {
+    "id": "nut-4",
+    "name": "Julian Thorne, MS, RDN",
+    "role": "Metabolic Optimization & Weight Management Coach",
+    "specialty": "Sustainable Weight Loss & Hormone Balance",
+    "experience": "8 Years",
+    "rating": 4.91,
+    "reviewsCount": 89,
+    "avatar": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=400&q=80",
+    "bio": "Specializes in reversing metabolic resistance and creating delicious, habit-forming dietary habits for busy professionals.",
+    "education": "MS in Clinical Dietetics, UCLA",
+    "availableSlots": ["Wednesday, 2:00 PM", "Friday, 1:00 PM", "Saturday, 11:00 AM"],
+    "consultationFee": 95
+  }
+]
