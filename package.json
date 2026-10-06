@@ -7,7 +7,7 @@
     "dev:server": "npm --prefix backend run dev",
     "dev:client": "npm --prefix frontend run dev",
     "install:all": "npm install && npm --prefix backend install && npm --prefix frontend install",
-    "build": "npm --prefix frontend install && npm --prefix frontend run build",
+    "build": "npm --prefix frontend install && npm --prefix frontend run build && node -e \"fs.cpSync('frontend/dist', 'dist', {recursive: true})\"",
     "start": "node backend/server.js"
   },
   "keywords": [
